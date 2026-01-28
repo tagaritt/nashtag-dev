@@ -7,7 +7,11 @@ const page = () => {
             <h1 className='text-4xl font-bold text-left mx-100 mt-10'>About Me</h1>
 
             <p className='text-lg text-left mt-6 mx-100 text-gray-400'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacus nisl, rutrum sed interdum sit amet, consectetur sed eros. Praesent sed sollicitudin dui. In posuere diam turpis, vitae vulputate eros eleifend a. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum volutpat sit amet odio et iaculis. Aliquam auctor lacus ut quam efficitur maximus. Proin placerat semper luctus. Integer finibus sem sed turpis porta scelerisque. Phasellus nec leo ligula. Pellentesque blandit aliquet dolor, varius placerat nulla. Nullam malesuada, odio condimentum vestibulum vestibulum, est risus congue velit, eget ultricies lectus nibh sed libero. Aenean auctor, mauris quis ultrices varius, urna odio dapibus tortor, nec imperdiet elit lectus id lectus. Pellentesque tincidunt maximus facilisis. Class aptent taciti.
+                I’m a software engineer with a knack for web design and data engineering, leading to me building eye-pleasing, storytelling databases and interfaces. I find joy in building things that help and that users enjoy interacting with, placing myself in a melting pot of design and engineering. 
+            </p>
+
+            <p className='text-lg text-left mt-6 mx-100 text-gray-400'>
+                When I'm not developing, I tend to play video games, create through photography/videography, or plot on a happy life with my girlfriend. 
             </p>
         </div>
     </div>
