@@ -11,7 +11,7 @@ const page = () => {
             </p>
 
             <p className='text-lg text-left mt-6 mx-105 text-gray-400'>
-                I come with experience from multiple industries including automotive, pharmaceuticals, healthcare, and high tech having worked with companies such as <b className="text-white"><a href="https://www.honda.com/operations">Honda</a></b>, <b className="text-white"><a href="https://www.regeneron.com/">Regeneron</a></b>, <b className="text-white">Intel</b>, and others. Outside of what I do professionally, I continue to develop passion projects in order to grow as a developer and hopefully lead the next generation of developers.
+                I come with experience from multiple industries including automotive, pharmaceuticals, healthcare, and high tech having worked with companies such as <b className="text-white"><a href="https://www.honda.com/operations">Honda</a></b>, <b className="text-white"><a href="https://www.regeneron.com/">Regeneron</a></b>, <b className="text-white"><a href="https://www.intel.com/content/www/us/en/homepage.html">Intel</a></b>, and others. Outside of what I do professionally, I continue to develop passion projects in order to grow as a developer and hopefully lead the next generation of developers.
             </p>
 
             <p className='text-lg text-left mt-6 mx-105 text-gray-400'>
