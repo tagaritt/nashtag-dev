@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Tinashe said hello!",
+  title: "Tinashe Tagarisa",
   description: "Welcome to Tinashe Tagarisa's development website. Find out more about my skills as a programmer or kick back and enjoy learning about my journey in the wonderful world of software engineering. Feel free to get in touch!",
 };
 
