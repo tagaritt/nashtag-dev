@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const page = () => {
@@ -11,11 +12,11 @@ const page = () => {
             </p>
 
             <p className='text-lg text-left mt-6 mx-105 text-gray-400'>
-                I come with experience from multiple industries including automotive, pharmaceuticals, healthcare, and high tech having worked with companies such as <b className="text-white"><a href="https://www.honda.com/operations">Honda</a></b>, <b className="text-white"><a href="https://www.regeneron.com/">Regeneron</a></b>, <b className="text-white"><a href="https://www.intel.com/content/www/us/en/homepage.html">Intel</a></b>, and others. Outside of what I do professionally, I continue to develop passion projects in order to grow as a developer and hopefully lead the next generation of developers.
+                I come with experience from multiple industries including automotive, pharmaceuticals, healthcare, and high tech having worked with companies such as <b className="hover:text-white transition-colors"><Link href="https://www.honda.com/operations">Honda</Link></b>, <b className="hover:text- transition-colors"><Link href="https://www.regeneron.com/">Regeneron</Link></b>, <b className="hover:text-white transition-colors"><Link href="https://www.intel.com/content/www/us/en/homepage.html">Intel</Link></b>, and others. Outside of what I do professionally, I continue to develop passion projects in order to grow as a developer and hopefully lead the next generation of developers.
             </p>
 
             <p className='text-lg text-left mt-6 mx-105 text-gray-400'>
-                Right now, I work as an Advanced Application Engineering Analyst for Accenture, where I've worked on various teams to successfully bring solutions to fruition. While working here, I've lead teams in building API endpoints and pilot program demos, acted as an SME for testing purposes, and built features for customer-facing applications.
+                Right now, I work as an Advanced Application Engineering Analyst for <b><Link href="">Accenture</Link></b>, where I've worked on various teams to successfully bring solutions to fruition. While working here, I've lead teams in building API endpoints and pilot program demos, acted as an SME for testing purposes, and built features for customer-facing applications.
             </p>
 
             <p className='text-lg text-left mt-6 mx-105 text-gray-400'>
