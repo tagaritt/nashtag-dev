@@ -12,6 +12,10 @@ const page = () => {
             <div className="">
               <h1 className='text-4xl font-bold text-left mx-105 mt-10'>Projects</h1>
             </div>
+
+            <div className="">
+              <p className='text-0.5xl font-normal text-left mx-105 mt-10'>Click here to view my r&eacute;sum&eacute;!</p>
+            </div>
         </div>        
     </div>
   )
