@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const page = () => {
   return (
@@ -14,7 +15,7 @@ const page = () => {
             </div>
 
             <div className="">
-              <p className='text-0.5xl font-normal text-left mx-105 mt-10'>Click here to view my r&eacute;sum&eacute;!</p>
+              <p className='text-0.5xl font-normal text-left mx-105 mt-10'><Link href="/files/Resume_TinasheTagarisa.pdf">Click here to view my r&eacute;sum&eacute;!</Link></p>
             </div>
         </div>        
     </div>
