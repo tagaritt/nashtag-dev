@@ -12,10 +12,13 @@ const page = () => {
 
             <div className="">
               <h1 className='text-4xl font-bold text-left mx-105 mt-10'>Projects</h1>
+              <p className='text-lg text-left mt-6 mx-105 text-gray-400'>nashtag.dev - You're on it! My development portflio site, making it easy to display my skills for recruiters and fellow developers alike.</p>
+              <p className='text-lg text-left mt-6 mx-105 text-gray-400'>nashtag.studio - My second 'portfolio' site of sorts</p>
+              <p className='text-lg text-left mt-6 mx-105 text-gray-400'>LovingCBH - Developed a website as a Valentine's Day gift in the past. My first deployed web app!</p>
             </div>
 
             <div className="">
-              <p className='text-0.5xl font-normal text-left mx-105 mt-10'><Link href="/files/Resume_TinasheTagarisa.pdf">Click here to view my r&eacute;sum&eacute;!</Link></p>
+              <p className='text-0.5xl font-normal text-gray-500 text-left mx-105 mt-10'><b className='hover:text-white transition transition-colors'><Link href="/files/Resume_TinasheTagarisa.pdf">Click here to view my r&eacute;sum&eacute;!</Link></b></p>
             </div>
         </div>        
     </div>
