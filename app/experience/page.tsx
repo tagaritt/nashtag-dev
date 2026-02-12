@@ -18,7 +18,7 @@ const page = () => {
             </div>
 
             <div className="">
-              <p className='text-0.5xl font-normal text-gray-500 text-left mx-105 mt-10'><b className='hover:text-white transition transition-colors'><Link href="/files/Resume_TinasheTagarisa.pdf">Click here to view my r&eacute;sum&eacute;!</Link></b></p>
+              <p className='text-0.5xl font-normal text-gray-500 text-left mx-105 mt-10'><b className='hover:animate-pulse text-white'><Link href="/files/Resume_TinasheTagarisa.pdf">Click here to view my r&eacute;sum&eacute;!</Link></b></p>
             </div>
         </div>        
     </div>
