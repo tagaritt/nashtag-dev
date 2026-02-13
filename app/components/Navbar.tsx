@@ -4,7 +4,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <nav className='fixed top-2 w-full flex items-center justify-around py-1 px-24'>
+    <nav className='fixed pt-4 w-full flex items-center justify-around py-1 px-40'>
         {/* This is code for my logo.*/}
         <Link href="/" className="transition duration-300 hover:scale-105">
             <Image src="/nashtag-logo.png" alt="NashTag logo" width={ 45 } height={ 45 }/>
