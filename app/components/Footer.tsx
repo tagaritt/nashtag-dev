@@ -14,7 +14,7 @@ const Footer = () => {
 
                     {/* LinkedIn Icon */}
                     <Link href="https://linkedin.com/in/nashtag" className="transition duration-300 hover:scale-110 opacity-60 hover:opacity-100">
-                        <Image src="/linkedin-logo.png" alt="GitHub" width={ 55 } height={ 55 }/>
+                        <Image src="/linkedin-logo.png" alt="LinkedIn" width={ 55 } height={ 55 }/>
                     </Link>
 
                     {/* Footnote */}

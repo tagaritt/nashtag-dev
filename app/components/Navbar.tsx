@@ -12,8 +12,8 @@ const Navbar = () => {
         </Link>
 
         {/* This is where all of the other links in the navbar will go. */}
-        <ul className="flex gap-15 text-lg">
-            <Link href="/" className="text-white font-semibold hover:animate-pulse transition-colors">Home</Link> 
+        <ul className="flex gap-14 text-xl">
+            <Link href="/" className="text-white font-normal hover:animate-pulse transition-colors">Home</Link> 
             <Link href="/about" className="text-white font-semibold hover:text-white transition-colors">About</Link>
             <Link href="/experience" className="text-white font-semibold hover:text-white transition-colors">Experience</Link>
             <Link href="/contact" className="text-white font-semibold hover:text-white transition-colors">Contact</Link>
