@@ -16,11 +16,11 @@ const page = () => {
             </p>
 
             <p className='text-lg text-left mt-6 mx-105 text-gray-400'>
-                Right now, I work as an Advanced Application Engineering Analyst for <b><Link href="">Accenture</Link></b>, where I've worked on various teams to successfully bring solutions to fruition. While working here, I've lead teams in building API endpoints and pilot program demos, acted as an SME for testing purposes, and built features for customer-facing applications.
+                Right now, I work as an Advanced Application Engineering Analyst for <b className="hover:text-white transition-colors"><Link href="https://www.accenture.com/us-en">Accenture</Link></b>, where I've worked on various teams to successfully bring solutions to fruition. While working here, I've lead teams in building API endpoints and pilot program demos, acted as an SME for testing purposes, and built features for customer-facing applications.
             </p>
 
             <p className='text-lg text-left mt-6 mx-105 text-gray-400'>
-                When I'm not developing, I tend to play video games, create through photography/videography, or plot on a happy life with my girlfriend. 
+                When I'm not developing, I tend to create visual art through photography/videography, lift peculiar amounts of weight, and attempt my annual race to Division 1. 
             </p>
         </div>
     </div>
