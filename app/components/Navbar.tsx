@@ -1,10 +1,10 @@
-import Link from 'next/link'
-import Image from 'next/image'
-import React from 'react'
+import Link from 'next/link';
+import Image from 'next/image';
+import React from 'react';
 
 const Navbar = () => {
   return (
-    <nav className='fixed pt-4 w-full flex items-center justify-around py-1 px-40'>
+    <nav className='fixed pt-4 w-full flex items-center justify-around py-1 px-40 backdrop-blur-sm bg-black/30 z-50 border-b-1 border-gray-950'>
         {/* This is code for my logo.*/}
         <Link href="/" className="transition duration-300 hover:scale-105">
             <Image src="/nashtag-logo.png" alt="NashTag logo" width={ 45 } height={ 45 }/>
