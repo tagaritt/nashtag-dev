@@ -7,19 +7,19 @@ import Image from 'next/image';
 
 const page = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center pt-15">
-        <div className="space-y-4 max-w-8xl">
+    <div className="min-h-screen flex items-center justify-center">
+        <div className="space-y-8 max-w-8xl">
             <div className="grid grid-cols-1 grid-flow-row gap-4 min-w-100">
-              <h1 className='text-4xl font-bold text-left mx-105 mt-10'>Recent Experience</h1>
+              <h1 className='text-4xl font-bold text-left mx-105 mt-30'>Recent Experience</h1>
               
               <div className="grid grid-cols-2 grid-flow-row gap-x-5 min-w-100">
-                <div className="col-span-1 mt-8 ml-100 w-125 h-30 rounded flex flex-col justify-center hover:bg-neutral-900 hover:transition-colors">
+                <div className="col-span-1 mt-1 ml-100 w-125 h-30 rounded flex flex-col justify-center hover:bg-neutral-900 hover:transition-colors">
                   <p className="pl-5 text-xs text-gray-500">09{"/"}22 {"-"} CURRENT</p>
                   <p className="pl-5"><b>Accenture</b> - Advanced App Engineering Analyst</p>
                   <p className="pl-5 text-small text-gray-400">Description of role {"&"} experiences had.</p>
                 </div>
 
-                <div className="col-span-1 mt-8 mr-100 w-125 h-30 rounded flex flex-col justify-center hover:bg-neutral-900 hover:transition-colors">
+                <div className="col-span-1 mt-1 mr-100 w-125 h-30 rounded flex flex-col justify-center hover:bg-neutral-900 hover:transition-colors">
                   <p className="pl-5 text-xs text-gray-500">05{"/"}21 {"-"} 08{"/"}21</p>
                   <p className="pl-5"><b>Marathon Petroleum</b> - Business Analysis Intern</p>
                   <p className="pl-5 text-small text-gray-400">Description of role {"&"} experiences had.</p>
@@ -57,7 +57,7 @@ const page = () => {
 
                 <div className="col-span-1 mt-2 ml-100 w-125 h-27.5 rounded flex justify-center hover:bg-neutral-900 hover:transition-colors">
                 <Link href="https://github.com/tagaritt/project-rimi">
-                    <p className='text-md text-left m-5 text-gray-400'><b className="hover:animate-pulse text-white">Rimi</b> - An app I{"'"}m building to target language learning by implementing AI in a meaningful way. Follow my journey as I rethink education!</p>
+                    <p className='text-md text-left m-5 text-gray-400'><b className="hover:animate-pulse text-white">Project Rimi</b> - An app I{"'"}m building to target language learning by implementing AI in a meaningful way. Follow my journey as I rethink education!</p>
                   </Link>
                 </div>
 
