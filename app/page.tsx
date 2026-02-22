@@ -8,7 +8,7 @@ export default function Home() {
         <h1 className="text-8xl font-bold text-center">Tinashe Tagarisa</h1>
         
         {/* Title(s) & Certification(s) */}
-        <h3 className="text-4xl font-semibold text-center text-gray-300">Software Developer | AWS Certified Cloud Practitioner</h3>
+        <h3 className="text-4xl font-semibold text-center text-gray-300">Software Developer | 2x AWS Certified</h3>
 
         {/* Summary Sentence */}
         <p className="text-2xl font-medium text-center text-gray-400 ">

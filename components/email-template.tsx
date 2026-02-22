@@ -7,11 +7,13 @@ interface EmailTemplateProps {
   message: string; 
 }
 
-export function EmailTemplate({ firstName, lastName, message }: EmailTemplateProps) {
+export function EmailTemplate({ firstName, lastName, email,message }: EmailTemplateProps) {
   return (
     <div>
-      <h1>Reader: {firstName} {lastName} </h1>
-      <p>Message: {message}</p>
+      <h1> My name is {firstName} {lastName}, and here{"'"}s what I have to say: </h1>
+      <p> {message} </p>
+
+      <p>To respond, please contact me at {email}{"."}</p>
     </div>
   );
 }

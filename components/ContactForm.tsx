@@ -9,8 +9,28 @@ import { Button } from "@/components/ui/button"
 import { FloatingInput } from "@/components/ui/floating-inputs"
 import { FloatingTextarea } from "@/components/ui/floating-labels"
 import { cn } from "@/lib/utils"
-import { contactSchema } from "@/lib/schemas"
-import { sendEmail } from "@/lib/email"
+
+const contactSchema = z.object({
+  firstName: z
+    .string()
+    .min(1, "First name is required")
+    .min(2, "First name must be at least 2 characters")
+    .max(50, "First name must be less than 50 characters"),
+  lastName: z
+    .string()
+    .min(1, "Last name is required")
+    .min(2, "Last name must be at least 2 characters")
+    .max(50, "Last name must be less than 50 characters"),
+  email: z
+    .string()
+    .min(1, "Email is required")
+    .email("Please enter a valid email address"),
+  message: z
+    .string()
+    .min(1, "Message is required")
+    .min(10, "Message must be at least 10 characters")
+    .max(1000, "Message must be less than 1000 characters"),
+})
 
 type ContactFormData = z.infer<typeof contactSchema>
 
@@ -45,12 +65,12 @@ export function ContactForm() {
           if (Math.random() > 0.1) {
             resolve()
           } else {
-            reject(new Error("Submission falied: Message could not be sent."))
+            reject(new Error("Failed to send message"))
           }
         }, 1500)
       })
 
-      sendEmail(data);
+      console.log("Form submitted:", data)
       setStatus("success")
       reset()
 
@@ -68,7 +88,7 @@ export function ContactForm() {
     <form
       onSubmit={handleSubmit(onSubmit)}
       noValidate
-      className="flex flex-col gap-5"
+      className="flex flex-col gap-6"
     >
       {/* Status Messages */}
       <div
@@ -87,7 +107,7 @@ export function ContactForm() {
           >
             <CheckCircle2 className="h-5 w-5 shrink-0" />
             <span>
-              Your message went through. Chat soon!
+              Your message has been sent successfully. We{"'"}ll get back to you soon.
             </span>
           </div>
         )}
