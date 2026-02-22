@@ -26,6 +26,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={montserrat.className}>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <body className={`${montserrat.variable} antialiased`}>
 
         <Navbar></Navbar>
