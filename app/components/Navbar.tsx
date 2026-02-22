@@ -15,7 +15,6 @@ const Navbar = () => {
             <Link href="/" className="text-white font-semibold hover:animate-pulse transition-colors">Home</Link> 
             <Link href="/about" className="text-white font-semibold hover:text-white transition-colors">About</Link>
             <Link href="/experience" className="text-white font-semibold hover:text-white transition-colors">Experience</Link>
-            <Link href="/contact" className="text-white font-semibold hover:text-white transition-colors">Contact</Link>
         </ul>
     </nav>
   )
