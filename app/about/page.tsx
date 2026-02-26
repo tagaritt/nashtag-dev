@@ -37,16 +37,16 @@ const page = () => {
             <div className="snap-center shrink-0 w-full px-6 flex items-center">
                 <p className="text-base text-gray-400 leading-relaxed">I come with experience from multiple industries including automotive{","} pharmaceuticals{","} healthcare{","} and high tech having worked with companies such as <b className="hover:text-white transition-colors"><Link href="https://www.honda.com/operations">Honda</Link></b>{","} <b className="hover:text-white transition-colors"><Link href="https://www.regeneron.com/">Regeneron</Link></b>{","} <b className="hover:text-white transition-colors"><Link href="https://www.intel.com/content/www/us/en/homepage.html">Intel</Link></b>{","} and others{"."} Outside of what I do professionally{","} I continue to develop passion projects in order to grow as a developer and hopefully lead the next generation of developers.</p>
             </div>
+            
+            {/* Page 3 */}
+            <div className="snap-center shrink-0 w-full px-6 flex items-center">
+                <p className="text-base text-gray-400 leading-relaxed">Right now{","} I work as an Advanced Application Engineering Analyst for <b className="hover:text-white transition-colors"><Link href="https://www.accenture.com/us-en">Accenture</Link></b>{","} where I{"'"}ve worked on various teams to successfully bring solutions to fruition{"."} While working here{","} I{"'"}ve lead teams in building API endpoints and pilot program demos{","} acted as an SME for testing purposes{","} and built features for customer{"-"}facing applications{"."}</p>
+            </div>
 
-        {/* Page 3 */}
-        <div className="snap-center shrink-0 w-full px-6 flex items-center">
-          <p className="text-base text-gray-400 leading-relaxed">Right now{","} I work as an Advanced Application Engineering Analyst for <b className="hover:text-white transition-colors"><Link href="https://www.accenture.com/us-en">Accenture</Link></b>{","} where I{"'"}ve worked on various teams to successfully bring solutions to fruition{"."} While working here{","} I{"'"}ve lead teams in building API endpoints and pilot program demos{","} acted as an SME for testing purposes{","} and built features for customer{"-"}facing applications{"."}</p>
-        </div>
-
-        {/* Page 4 */}
-        <div className="snap-center shrink-0 w-full px-6 flex items-center">
-          <p className="text-base text-gray-400 leading-relaxed">When I{"'"}m not developing{","} I tend to create visual art through photography{"/"}videography{","} lift peculiar amounts of weight{","} and attempt my annual race to Division 1.</p>
-        </div>
+            {/* Page 4 */}
+            <div className="snap-center shrink-0 w-full px-6 flex items-center">
+                <p className="text-base text-gray-400 leading-relaxed">When I{"'"}m not developing{","} I tend to create visual art through photography{"/"}videography{","} lift peculiar amounts of weight{","} and attempt my annual race to Division 1.</p>
+            </div>
 
       </div>
     </div>
