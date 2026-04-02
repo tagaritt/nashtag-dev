@@ -36,13 +36,11 @@ const Navbar = () => {
             <Image src="/nashtag-logo.png" alt="NashTag logo" width={ 45 } height={ 45 }/>
         </Link>
 
-        {/* Desktop Layout */}
-        <ul className="hidden md:flex gap-14 text-xl p-5 ml-100 items-center justify-center">
-          {pageOptions.map((item) => (
-            <Link key={item.href} href={item.href} className="text-white font-semibold hover:animate-pulse transition-colors">
-              {item.label}
-            </Link>
-          ))}
+        {/* This is where all of the other links in the navbar will go. */}
+        <ul className="flex gap-14 text-xl ml-120 p-5 itmes-center justify-center">
+            <Link href="/" className="text-white font-semibold hover:animate-pulse transition-colors">Home</Link> 
+            <Link href="/about" className="text-white font-semibold hover:text-white transition-colors">About</Link>
+            <Link href="/experience" className="text-white font-semibold hover:text-white transition-colors">Experience</Link>
         </ul>
 
         {/* Mobile - Hamburger Menu Button */}

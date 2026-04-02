@@ -4,29 +4,21 @@ import Image from 'next/image';
 
 const Footer = () => {
     return (
-        <footer className=" text-white mb-8">
-            <div className="max-w-6xl mx-auto px-4">
-                
-                <div className="flex flex-col md:flex-row items-center md:items-start justify-center md:justify-between gap-6">
-                    <div className="flex items-center justify-center gap-6">
-                        {/* Github Icon */}
-                        <div className="w-10 h-10 md:w-10 md:h-10">
-                            <Link href="https://github.com/tagaritt" className="transition duration-300 hover:scale-110 opacity-60 hover:opacity-100">
-                                <Image src="/github-logo.png" alt="GitHub" width={ 55 } height={ 55 } className="w-full h-full"/>
-                            </Link>
-                        </div>
-                        
-                        {/* LinkedIn Icon */}
-                        <div className="w-10 h-10 md:w-10 md:h-10">
-                            <Link href="https://linkedin.com/in/nashtag" className="transition duration-300 hover:scale-110 opacity-60 hover:opacity-100">
-                                <Image src="/linkedin-logo.png" alt="LinkedIn" width={ 55 } height={ 55 } className="w-full h-full"/>
-                            </Link>
-                        </div>
-                        
-                    </div>
+        <footer className=" text-white py-8">
+            <div className="max-w-6xl mx-111 mt-10 px-4">
+                <div className="flex items-center justify-center gap-6 mb-2ds">
+                    {/* Github Icon */}
+                    <Link href="https://github.com/tagaritt" className="transition duration-300 hover:scale-110 opacity-60 hover:opacity-100">
+                        <Image src="/github-logo.png" alt="GitHub" width={ 55 } height={ 55 }/>
+                    </Link>
+
+                    {/* LinkedIn Icon */}
+                    <Link href="https://linkedin.com/in/nashtag" className="transition duration-300 hover:scale-110 opacity-60 hover:opacity-100">
+                        <Image src="/linkedin-logo.png" alt="LinkedIn" width={ 55 } height={ 55 }/>
+                    </Link>
 
                     {/* Footnote */}
-                    <p className="text-sm text-gray-700 text-center md:text-left max-w-xl">I designed this in my iPad's Notes app, built it in Visual Studio Code with Next.JS and Tailwind CSS, stored it in GitHub Pages, and deployed it with Vercel.</p>
+                    <p className="pl-80 text-sm text-gray-700">I designed this in my iPad{"'"}s Notes app{","} built it in Visual Studio Code with Next{"."}JS and Tailwind CSS{","} stored it on GitHub{","} and deployed it with Vercel{"."}</p>
                 </div>
             </div>
         </footer>
