@@ -1,6 +1,7 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
+@import "hamburgers/dist/hamburgers.min.css";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -130,3 +131,109 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+/* Hide scrollbars for all browsers */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE/Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Make the hamburger menu smaller */
+.hamburger {
+  transform: scale(0.75); /* 75% of original size */
+}
+
+/* Optional: fine‑tune the box size */
+.hamburger-box {
+  width: 28px !important;   /* default is 40px */
+  height: 20px !important;  /* default is 24px */
+}
+
+.hamburger-inner,
+.hamburger-inner::before,
+.hamburger-inner::after {
+  background-color: #7df8f8 !important;
+  width: 28px !important;   /* match box width */
+  height: 3px !important;   /* thinner lines */
+}
+
+/* Container animation */
+@keyframes menuFadeDown {
+  0% { opacity: 0; transform: translateY(-10px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes menuFadeUp {
+  0% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(-10px); }
+}
+
+/* Item animation */
+@keyframes itemFadeIn {
+  0% { opacity: 0; transform: translateY(10px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes itemFadeOut {
+  0% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(10px); }
+}
+
+/* Utility classes */
+.menu-open {
+  animation: menuFadeDown 0.35s ease forwards;
+}
+
+.menu-close {
+  animation: menuFadeUp 0.25s ease forwards;
+}
+
+.menu-item {
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+.menu-item-open {
+  animation: itemFadeIn 0.4s ease forwards;
+}
+
+.menu-item-close {
+  animation: itemFadeOut 0.25s ease forwards;
+}
+
+/* Slide-down container */
+.menu-slide {
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition:
+    max-height 0.35s ease,
+    opacity 0.25s ease,
+    transform 0.35s ease;
+}
+
+.menu-slide.open {
+  max-height: 300px; /* enough to show all links */
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Staggered item animation */
+.menu-item {
+  opacity: 0;
+  transform: translateY(10px);
+  transition:
+    opacity 0.35s ease,
+    transform 0.35s ease;
+}
+
+.menu-item.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
